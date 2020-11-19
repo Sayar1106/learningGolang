@@ -16,6 +16,6 @@ func main() {
 	}
 	fmt.Println(sum)
 
-	arr2D := [2][2]int{{1,2}, {3,4}}
+	arr2D := [2][2]int{{1, 2}, {3, 4}}
 	fmt.Println(arr2D[0][1])
 }

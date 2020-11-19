@@ -3,12 +3,12 @@ package main
 import "fmt"
 
 type Point struct {
-	x int32
-	y int32
-	isOnGrid bool	
+	x        int32
+	y        int32
+	isOnGrid bool
 }
 
-func main(){
+func main() {
 	var p1 Point = Point{1, 2, false}
 	var p2 Point = Point{-5, 7, true}
 	p1.x = 7

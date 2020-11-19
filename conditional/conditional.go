@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main(){
+func main() {
 	x := 'C'
 	y := 'B'
 	val := x < y

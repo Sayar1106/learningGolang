@@ -7,11 +7,11 @@ func test(x int) {
 }
 
 func test3(myFunc func(int) int) {
-	 fmt.Println(myFunc(7))
+	fmt.Println(myFunc(7))
 }
 
 func returnFunc(x string) func() {
-	return func() {fmt.Println(x)}
+	return func() { fmt.Println(x) }
 }
 
 func main() {

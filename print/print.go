@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+
 func main() {
 	// var type
 	fmt.Printf("%T\n", 56.1)
